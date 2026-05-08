@@ -1,5 +1,5 @@
-// Service Worker v7 - aggressive cache busting
-const CACHE_NAME = 'rafiq-v12';
+// Service Worker v12 - aggressive cache busting
+const CACHE_NAME = 'rafiq-v13';
 
 self.addEventListener('install', (event) => {
   // Skip pre-caching to avoid stale files; rely on runtime cache
